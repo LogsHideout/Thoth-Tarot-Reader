@@ -28,7 +28,7 @@ def tarot_reading():
         if question.lower() == "quit":
             break
         else:
-            num_cards = int(input("Enter the number of cards you would like to draw (up to 22): "))
+            num_cards = int(input("Enter the number of cards you would like to draw (4-8 recommended): "))
             print(Fore.CYAN + Style.BRIGHT + "\nTarot cards drawn for your question:")
             for _ in range(num_cards):
                 tarot_card = get_tarot_card()

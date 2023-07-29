@@ -22,7 +22,7 @@ def get_tarot_card():
     return card
 # main function for reading
 def tarot_reading():
-    print(Fore.YELLOW + Style.BRIGHT + "Welcome to thoth tarot reader \nplease note interpretations can vary depending on the reading.")
+    print(Fore.YELLOW + Style.BRIGHT + "Welcome to thoth tarot reader ☥ \nplease note interpretations can vary depending on the reading.")
     while True:
         question = input("Ask a question or type quit to exit: ")
         if question.lower() == "quit":
